@@ -18,6 +18,7 @@ import Database.JDBCUtil;
 /**
  * Servlet implementation class SearchGVControl
  */
+@WebServlet("/searchGVControl")
 public class SearchGVControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

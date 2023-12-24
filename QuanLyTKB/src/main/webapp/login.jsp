@@ -30,7 +30,7 @@
 
                     <div class="signin-form">
                         <h2 class="form-title">Sign up</h2>
-                        <form method="" action="" class="register-form" id="login-form">
+                        <form method="post" action="/LoginServlet" class="register-form" id="login-form">
                             <div class="form-group">
                                 <label for="username">
                                     <i class="fa-solid fa-user icon"></i>
@@ -60,6 +60,22 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <!-- JS -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script type="text/javascript">
+		var status = document.getElementById("status").value;
+		if(status == "failed"){
+			swal("Sorry", "Wrong Username or Password", "error");
+		}
+		if(status == "invalidUname"){
+			swal("Sorry", "Please Enter Username", "error");
+		}
+		if(status == "invalidUpass"){
+			swal("Sorry", "Please Enter Password", "error");
+		}
+	</script>
 
 </body>
 </html>
