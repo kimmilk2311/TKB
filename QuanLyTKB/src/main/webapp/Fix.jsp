@@ -21,7 +21,7 @@
     <img src="img/image-1.png" alt="Icon" class="custom-icon float-left">
     <div class="custom-title text-left">Đăng Ký Giáo Viên</div>
   </div>
-  <!-- Bảng Bootstrap -->]
+  <!-- Bảng Bootstrap -->
   <!-- form  -->
  <form action="" method="">
   <div class="container">
